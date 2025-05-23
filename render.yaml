@@ -3,7 +3,7 @@ services:
     name: cafe-backend
     runtime: node
     buildCommand: cd api && npm install
-    startCommand: cd api && node server.js
+    startCommand: cd api && node index.js
     envVars:
       - key: DB_HOST
         value: ${DB_HOST}
