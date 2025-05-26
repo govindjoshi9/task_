@@ -39,11 +39,10 @@ db.connect((err) => {
   );
 });
 
-// API endpoints
+
 app.post("/api/menu-items", (req, res) => {
   const { title, description, price } = req.body;
 
-  // Basic validation
   if (!title || !description || !price || price <= 0) {
     return res
       .status(400)
@@ -86,7 +85,6 @@ app.get("/api/menu-items", (req, res) => {
 app.delete('/api/menu-items/:id', (req, res) => {
   const itemId = req.params.id;
   
-  // Basic validation
   if (!itemId || isNaN(itemId)) {
     return res.status(400).json({ error: 'Invalid menu item ID' });
   }
