@@ -6,9 +6,12 @@ A full-stack web application for managing cafe menu items, featuring a responsiv
 
 ---
 
-## 📸 Screenshot (Optional)
+## 📸 Screenshot 
 
 > _You can add a screenshot of your app here to showcase the UI._
+![Screenshot (17)](https://github.com/user-attachments/assets/1237e52b-837d-4c87-9616-ba55909bc76b)
+![Screenshot (35)](https://github.com/user-attachments/assets/36919968-9f08-48d4-ab91-32b8112aba32)
+![Screenshot (34)](https://github.com/user-attachments/assets/a7c0109d-1a88-472e-8957-b8fdc875222e)
 
 ---
 
@@ -53,7 +56,7 @@ A full-stack web application for managing cafe menu items, featuring a responsiv
 ```
 task_/
 ├── api/ # Backend (Express.js)
-│ ├── server.js # Main server file
+│ ├── index.js # Main server file
 │ ├── package.json # Dependencies and scripts
 │ └── render.yaml # Render deployment config
 │
